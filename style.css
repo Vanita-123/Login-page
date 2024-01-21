@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    color: #1b1b1b;
+}
+body{
+    display: grid;
+    background-color:#dde2d1;
+    place-items: center;
+    min-height: 100vh;   
+}
+form
+{
+    background-color: #fff;
+    width: 440px;
+    box-shadow: 00.5rem rgba(0, 0, 0, .2);
+    padding: 44px;
+}
+ .logo {
+margin-bottom: 15px;
+} 
+form h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.form-group{
+    margin: 0 0 16px;
+}
+ form input{
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    padding:  6px 10px 6px 0px ;
+    width: 100%;
+    font-size: .9rem;
+    border-bottom: 1px solid #000000b3;
+}
+form p{
+    margin-bottom:16px;
+    font-size: 15px;
+    margin-top: 15px;
+ }
+form a{
+    text-decoration: none;
+    color: #0067b8;
+}
+form a:hover{
+    text-decoration: underline;
+    color: #000000b3;
+}
+form :is(.first, .second) > a{
+    font-size: 13px;
+}
+form .first a >span{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000000b3;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 0.2rem;
+    color: black;
+}
+form button{
+    display: block;
+    margin-left: auto;
+    width: 108px;
+    height: 32px;
+    padding: 4px 12px;
+    font-size: 15px;
+    background-color: #0067b8;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    }
+    form button:hover{
+        background-color:  #004b85;
+    }
+    form button:active{
+        transform: scale(.97);
+    }
+    .form-container {
+        overflow-x: hidden;
+    }
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 705px;
+    transition:  200ms ease-in-out transform;
+}
+.first, .second {
+    width: 100%;
+}
+.arrow-btn{
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 0.3rem;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+}
+.arrow-btn:hover{
+    background-color: rgba(0,-0,-0 +.1);
+}
+.bottom{
+    width: 440px;
+    background: #fff;
+    box-shadow: 0 0.5rem rgba (0,0,0,0.2);
+    padding: 8px 44px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.bottom img{
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+}
+.bottom:hover{
+    background-color: #dde2d1;
+}
+.next-form {
+    transform: translateX(-50%);
+}
